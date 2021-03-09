@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const url = 'mongodb+srv://student:<student>@cluster0.vtcph.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const url = 'mongodb://localhost/db';
 let port = process.env.PORT || 9000;
 
 const app = express();
